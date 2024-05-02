@@ -93,41 +93,43 @@ let buybtn_m1 = document.querySelectorAll("#m1");
 buybtn_m1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
     window.location.href = "Mercedes_Car_1.html";
+    console.log("click mar");
   });
 });
 
 let buybtn_a1 = document.querySelectorAll("#a1");
 buybtn_a1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
-    window.location.href("Audi_Car_1.html");
+    window.location.href = "Audi_Car_1.html";
+    console.log("click audi");
   });
 });
 
 let buybtn_h1 = document.querySelectorAll("#h1");
 buybtn_h1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
-    window.location.href("Honda_Car_1.html");
+    window.location.href = "Honda_Car_1.html";
   });
 });
 
 let buybtn_t1 = document.querySelectorAll("#t1");
 buybtn_t1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
-    window.location.href("Toyota_Car_1.html");
+    window.location.href = "Toyota_Car_1.html";
   });
 });
 
 let buybtn_j1 = document.querySelectorAll("#j1");
 buybtn_j1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
-    window.location.href("jaguar_Car_1.html");
+    window.location.href = "jaguar_Car_1.html";
   });
 });
 
 let buybtn_F1 = document.querySelectorAll("#f1");
 buybtn_F1.forEach(function (buybtn) {
   buybtn.addEventListener("click", function () {
-    window.location.href("Ferrari_Car_1.html");
+    window.location.href = "Ferrari_Car_1.html";
   });
 });
 
