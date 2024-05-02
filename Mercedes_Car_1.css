@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main_container {
+  width: 50vw;
+  height: 30vw;
+  margin-left: 4vw;
+  margin-top: 1vw;
+  display: block;
+  background-color: rgb(59, 59, 59);
+}
+/* .sub_container1{
+    background-color: blue;
+    width: 70vw;
+    height: 30vw;
+} */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* width: 8vw; */
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.swiper-wrapper {
+  background-color: rgb(88, 83, 83);
+}
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next {
+  height: 1vw;
+  width: 4vw;
+  /* background-color: orange */
+}
+.check_availability {
+  margin-left: 55vw;
+  margin-top: -30vw;
+  /* border: 1px solid rgb(0, 0, 0); */
+  height: 75vw;
+}
+.check_availability2 {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  /* border: 1px solid rebeccapurple; */
+  background-color: whitesmoke;
+}
+.pickup_location {
+  font-size: 1.5vw;
+  font-weight: 540;
+  /* color: white; */
+  margin-top: 1.5vw;
+}
+.Pickup {
+  width: 15vw;
+  height: 2vw;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+}
+.pic_l {
+  display: flex;
+}
+.check {
+  width: 30vw;
+  font-size: 1.5vw;
+  height: 2.5vw;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2vw;
+  border: 1px solid black;
+  background-color: orange;
+  border-radius: 10px;
+}
+.owner_img {
+  height: 6vw;
+  width: 6vw;
+  border-radius: 50%;
+  /* display: block; */
+  display: flex;
+  position: absolute;
+}
+.owner_name {
+  /* display: flex; */
+  margin-top: 1vw;
+  margin-left: 9vw;
+}
+.oname {
+  font-size: 2vw;
+  font-weight: 540;
+}
+.ri-verified-badge-line {
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+}
+.CA {
+  font-size: 2vw;
+  text-align: center;
+  background-color: rgb(236, 234, 232);
+}
+.Specifications {
+  /* border: 1px solid black; */
+  background-color: rgb(235, 231, 231);
+  height: 20vw;
+  margin-top: 2vw;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 1vw;
+  box-shadow: 0.1px 0.1px 1px 1px rgb(93, 92, 92);
+}
+.specifications1 {
+  font-size: 2vw;
+  display: block;
+  border: 1px solid black;
+  height: 2vw;
+}
+.sub_spe {
+  width: 11vw;
+  height: 3.5vw;
+  display: flex;
+  margin-left: 3vw;
+  justify-content: center;
+  cursor: pointer;
+}
+.sub_spe1 {
+  width: 3vw;
+  height: 3vw;
+  margin-left: -4vw;
+  display: block;
+  cursor: pointer;
+}
+.hedding {
+  /* margin-left: 1.5vw; */
+  margin-top: 0.1vw;
+  cursor: pointer;
+}
+.sub_spe2_hedding {
+  font-size: 1vw;
+  font-weight: 450;
+  cursor: pointer;
+}
+.sub_spe2 {
+  display: block;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: -2vw;
+  height: 3vw;
+  width: 3vw;
+  cursor: pointer;
+}
+.car_info_heading {
+  font-size: 5vw;
+  text-align: center;
+  background-color: rgb(65, 61, 61);
+  font-weight: 300;
+  color: orange;
+  text-shadow: 2px 2px 4px rgb(195, 135, 25);
+  text-decoration: double;
+}
+.confitm_rent {
+  font-size: 4vw;
+  background-color: orange;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 3vw;
+  cursor: pointer;
+}
+.back {
+  color: white;
+  background-color: orange;
+  width: 5vw;
+  margin-top: -5.6vw;
+  margin-left: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* for risponsive */
+@media (max-width: 600px) {
+  .Specifications {
+    height: 90vw;
+  }
+  .main_container {
+    width: 100%;
+    height: 10%;
+  }
+  .check_availability {
+    display: block;
+    margin-top: 10vw;
+    margin-left: 0vw;
+  }
+  .map {
+    width: 100%;
+  }
+  .sub_spe2_hedding {
+    font-size: 3vw;
+    font-weight: 450;
+    margin-top: 1vw;
+  }
+  .hedding {
+    margin-left: -2.4vw;
+    margin-top: 1vw;
+    cursor: pointer;
+  }
+  .CA {
+    font-size: 5vw;
+  }
+  .pickup_location {
+    font-size: 4vw;
+  }
+  .Pickup {
+    width: 45vw;
+    height: 5vw;
+  }
+  .check {
+    width: 45vw;
+    font-size: 4.5vw;
+    height: 5.5vw;
+  }
+  .confitm_rent {
+    font-size: 7vw;
+    margin-top: 0vw;
+  }
+  .car_info_heading {
+    font-size: 8vw;
+  }
+  .back {
+    width: 10vw;
+    margin-top: -8.6vw;
+  }
+}
