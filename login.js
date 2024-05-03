@@ -9,3 +9,15 @@ registerBtn.addEventListener("click", () => {
 loginBtn.addEventListener("click", () => {
   container.classList.remove("active");
 });
+
+function getbackHome() {
+  let sin = document.querySelector("#sin");
+  let sup = document.querySelector("#sup");
+  sin.addEventListener("click", () => {
+    window.location.href = "https://rentcaar.netlify.app/home.html";
+  });
+  sup.addEventListener("click", () => {
+    window.location.href = "https://rentcaar.netlify.app/home.html";
+  });
+}
+getbackHome();

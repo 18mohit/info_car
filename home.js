@@ -158,19 +158,30 @@ function Showother() {
 }
 
 // Function to load the content of login.html
-function Showloginpage() {
-  // Load the second page content into a div
-  loginPage.innerHTML =
-    '<object type="text/html" data="login.html" style="width:100%; height:500px; margin-top: 60px;"></object>';
-  heidContent.style.display = "none";
+// function Showloginpage() {
+//   // Load the second page content into a div
+//   loginPage.innerHTML =
+//     '<object type="text/html" data="login.html" style="width:100%; height:500px; margin-top: 60px;"></object>';
+//   heidContent.style.display = "none";
 
-  // Accessing element with id "sin" from the dynamically loaded HTML
-  let signinFrame = loginPage.querySelector("object");
-  signinFrame.addEventListener("load", function () {
-    let signin = signinFrame.contentDocument.querySelector("#sin");
-    signin.addEventListener("click", Showother);
+//   // Accessing element with id "sin" from the dynamically loaded HTML
+//   let signinFrame = loginPage.querySelector("object");
+//   signinFrame.addEventListener("load", function () {
+//     let signin = signinFrame.contentDocument.querySelector("#sin");
+//     signin.addEventListener("click", Showother);
+//   });
+// }
+function login() {
+  let signin = document.querySelector(".signin");
+  let signup = document.querySelector(".signup");
+  signin.addEventListener("click", function () {
+    window.location.href = "https://rentcaar.netlify.app/login.html"
+  });
+  signup.addEventListener("click", function () {
+    window.location.href = "https://rentcaar.netlify.app/login.html"
   });
 }
+login();
 
 // Set a timeout to call Showloginpage after 1000 milliseconds (1 second)
 // let timeoutId = setTimeout(Showloginpage, 1000);
