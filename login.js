@@ -18,7 +18,7 @@ function getbackHome() {
     window.location.href = "https://rentcaar.netlify.app/home.html";
   });
   sup.addEventListener("click", () => {
-    event.preventDefault();
+    event.preventDefault(); 
     window.location.href = "https://rentcaar.netlify.app/home.html";
   });
 }

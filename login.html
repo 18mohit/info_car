@@ -36,7 +36,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="stylesheet" href="login.css" />
-    <title>Modern Login Page | AsmrProg</title>
+    <title>Login Page</title>
   </head>
 
   <body>
@@ -60,9 +60,9 @@
             ></a>
           </div>
           <span>or use your email for registeration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input class="sup_input" id="sup_input_name" type="text" placeholder="Name" required />
+          <input class="sup_input" id="sup_input_email" type="email" placeholder="Email" required />
+          <input class="sup_input" id="sup_input_pass" type="password" placeholder="Password" required />
           <button id="sup">Sign Up</button>
         </form>
       </div>
@@ -80,8 +80,8 @@
             ></a>
           </div>
           <span>or use your email password</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input class="sin_input" id="sin_input_email" type="email" placeholder="Email" required />
+          <input class="sin_input" id="sin_input_pass" type="password" placeholder="Password" required />
           <a href="#">Forget Your Password?</a>
           <button id="sin">Sign In</button>
         </form>
