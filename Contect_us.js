@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Redirect to home page after 3 seconds
         setTimeout(function() {
             window.location.href = 'https://rentcaar.netlify.app/home.html'; // Replace '#' with your home page URL
-        }, 1000);
+        }, 2000);
     });
 });

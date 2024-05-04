@@ -133,20 +133,6 @@ buybtn_F1.forEach(function (buybtn) {
   });
 });
 
-let view_all_cars1 = document.querySelector("#view_all_cars1");
-let view_all_cars2 = document.querySelector("#view_all_cars2");
-function Showview_all_cars1() {
-  view_all_cars1.addEventListener("click",function(){
-   window.location.href = "https://www.cars24.com/sell-marketing/?utm_source=Bing&utm_medium=cpc&utm_campaign=Bing&source=google&medium=adwords&network=o&campaignid=248521901&agroupid=4581129883&adposition=&creative=keyword=cars24&matchtype=e&device=c&msclkid=dc93ae38b66f1d987ca7c80bdb155b51&utm_source=bing&utm_medium=cpc&utm_campaign=Search%7CC24&utm_term=cars24&utm_content=Brand_Xt"
-  } )
-}
-function Showview_all_cars2() {
-  view_all_cars2.addEventListener("click",function(){
-   window.location.href = "https://www.cars24.com/sell-marketing/?utm_source=Bing&utm_medium=cpc&utm_campaign=Bing&source=google&medium=adwords&network=o&campaignid=248521901&agroupid=4581129883&adposition=&creative=keyword=cars24&matchtype=e&device=c&msclkid=dc93ae38b66f1d987ca7c80bdb155b51&utm_source=bing&utm_medium=cpc&utm_campaign=Search%7CC24&utm_term=cars24&utm_content=Brand_Xt"
-  } )
-}
-Showview_all_cars1();
-Showview_all_cars2();
 
 let loginPage = document.getElementById("login_page");
 let heidContent = document.querySelector("#login_hide_content");
